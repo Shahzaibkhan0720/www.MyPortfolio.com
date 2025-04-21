@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #1a202c; /* Tailwind's bg-gray-800 */
+    color: #ffffff; /* Tailwind's text-white */
+}
+
+header nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #a0aec0; /* Tailwind's hover:text-gray-400 */
+}
+
+/* About Section */
+#about {
+    padding: 5rem 1rem;
+    background-color: #ffffff; /* Tailwind's bg-white */
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1.125rem;
+}
+
+/* Projects Section */
+#projects {
+    padding: 5rem 1rem;
+    background-color: #edf2f7; /* Tailwind's bg-gray-200 */
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.project-card {
+    background-color: #ffffff; /* Tailwind's bg-white */
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind's shadow-lg */
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+
+/* Contact Section */
+#contact {
+    padding: 5rem 1rem;
+    background-color: #ffffff; /* Tailwind's bg-white */
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#contact p {
+    font-size: 1.125rem;
+}
+
+#contact a {
+    color: #4299e1; /* Tailwind's text-blue-500 */
+    transition: color 0.3s;
+}
+
+#contact a:hover {
+    color: #2b6cb0; /* Darker blue for hover state */
+}
+
+/* Footer */
+footer {
+    background-color: #1a202c; /* Tailwind's bg-gray-800 */
+    color: #ffffff; /* Tailwind's text-white */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
